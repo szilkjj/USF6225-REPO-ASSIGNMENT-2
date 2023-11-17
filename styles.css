@@ -1,0 +1,49 @@
+[data-tab-content] {
+    display: none;
+  }
+  
+  .active[data-tab-content] {
+    display: block;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black;
+  }
+  
+  .tab {
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .tab.active {
+    background-color: #bebbbb;
+  }
+  
+  .tab:hover {
+    background-color: #AAA;
+  }
+  
+  .tab-content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+#homepagepadding{padding-left: 20px;padding-right: 20px;}
+#statisticpadding{padding-left: 20px; padding-bottom: 20px;padding-right: 20px;}
+#preventionpaddling{padding-left: 20px;padding-right: 20px;}
+#aboutpaddling{padding-left: 20; padding-right: 20px;}
+#opiods-smaller-banner{height: 200px; width: 1000px;vertical-align: middle;}
+#statisticalreportingimage{height: 400px; vertical-align: auto}
+#statisticalreportingimage2{height: 300px; vertical-align: middle;padding: 75px;}
+#selfimage{height: 300px;vertical-align: middle; padding-left: 320px;}
+#bodynotes{padding-left: 20px;padding-right: 20px;}
